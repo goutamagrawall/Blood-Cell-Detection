@@ -1,0 +1,14 @@
+train: train/images
+val: valid/images
+test: test/images
+nc: 3
+names:
+- RBC
+- WBC
+- platelets
+roboflow:
+  workspace: clg-vtj9f
+  project: blood-cell-detection-bsbvn
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/clg-vtj9f/blood-cell-detection-bsbvn/dataset/4

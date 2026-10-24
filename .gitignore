@@ -1,0 +1,19 @@
+# Copied workstation files and settings are not project content.
+.*
+!.gitignore
+!.gitattributes
+!.github/
+!.github/**
+__pycache__/
+*.py[cod]
+*.cache
+*.zip
+*.log
+*.egg-info/
+venv/
+env/
+outputs/
+runs/
+# Duplicate training checkpoints and downloadable pretrained models.
+**/weights/last.pt
+/*.pt

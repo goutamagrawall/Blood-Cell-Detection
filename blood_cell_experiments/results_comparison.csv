@@ -1,0 +1,5 @@
+Experiment,Configuration,mAP@0.5,mAP@0.5:0.95,Precision,Recall,F1-Score
+Balanced Loss,"cls=1.0, box=9.0, dfl=2.0",0.9318,0.6295,0.8722,0.9309,0.9006
+Baseline (CIoU),Default settings,0.9339,0.6231,0.906,0.8998,0.9029
+High Box Loss,box=10.0,0.9285,0.6223,0.8609,0.9176,0.8884
+High DFL Loss,dfl=2.5,0.9167,0.6159,0.8671,0.9174,0.8916

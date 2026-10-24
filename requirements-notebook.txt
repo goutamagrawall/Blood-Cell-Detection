@@ -1,0 +1,6 @@
+-r requirements.txt
+pandas>=2,<4
+matplotlib>=3.8,<4
+seaborn>=0.13,<1
+ipywidgets>=8,<9
+ipykernel>=6,<8

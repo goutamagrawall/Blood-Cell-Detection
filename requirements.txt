@@ -1,0 +1,4 @@
+# Version recorded in the supplied trained checkpoints.
+ultralytics==8.3.221
+opencv-python>=4.8,<6
+PyYAML>=6,<7
